@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  font-family: "PT Serif", serif;
+}
+
+body {
+  background-color: rgb(33, 40, 55);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+
+  /** colors */
+  background-color: rgb(30, 30, 37);
+  color: white;
+  height: 5rem;
+  
+}
+
+.logo-container{
+  display: flex;
+  width: 15rem;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin:0 4rem;
+}
+
+.logo-container > h1{
+  font-family: "Alata", sans-serif;
+  margin-left: 0.5rem;
+}
+
+.material-symbols-outlined {
+  font-size: 3rem;
+}
+
+.user-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  width: 35rem;
+  margin-right: 4rem;
+}
+
+.user-btn{
+  font-family: "Alata", sans-serif;
+  background-color: transparent;
+  border: none;
+  color: white;
+  transition:0.2s;
+}
+
+.user-btn:hover{
+  color: rgb(176, 176, 176);
+  cursor: pointer;
+}
+.log-btn{
+  font-family: "Alata", sans-serif;
+  color: white;
+  background-color: rgb(67, 164, 67);
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  transition: 0.2s
+}
+
+.log-btn:hover{
+  background-color: rgb(49, 121, 49);
+}
