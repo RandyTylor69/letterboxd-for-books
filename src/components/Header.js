@@ -3,7 +3,7 @@ export default function Header() {
     <header>
       <div className="logo-container">
         <span class="material-symbols-outlined" id="logo">book_ribbon</span>
-        <h1>BookerBoxd</h1>
+        <h2>BookerBoxd</h2>
       </div>
       <div className="user-container">
         <button class="user-btn">DEPAYSS</button>
